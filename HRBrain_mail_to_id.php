@@ -100,10 +100,10 @@
 
             function lookup($mail,$employee){
                 // トークンエンドポイントのURL
-                $tokenUrl = 'https://rext.oapi.hrbrain.jp/auth/token'; 
+                $tokenUrl = 'url'; 
 
                 // APIトークン
-                $clienttoken = 'mBOLbo1EUvbeEdJkt8O1EJi4R6TGEXUBFm5AD3wP';
+                $clienttoken = 'token';
 
                 // POSTデータ
                 $postData = [
@@ -143,7 +143,7 @@
                 curl_close($ch);    
 
                 // トークンエンドポイントのURL
-                $url = 'https://rext.oapi.hrbrain.jp/members/v1/members/lookup'; 
+                $url = 'url'; 
 
                 $headers=array(
                     'Authorization: Bearer '.$token.'',
